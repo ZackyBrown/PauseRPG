@@ -1,0 +1,48 @@
+{
+  "perso":[
+    {
+    "classe": "mendiant",
+    "pvMax": 50,
+    "pmMax": 10,
+    "force": 5,
+    "dext": 5,
+    "intel": 5,
+    "desc": "Un être normal, qui se démène pour survivre avec ce qu'il trouve. Des statistiques de base, aucun talent particulier. À moins que ...",
+    "src": "img/clodo.png",
+    "alt": "l'image du mendiant"
+  },
+  {
+    "classe": "guerrier",
+    "pvMax": 100,
+    "pmMax": 10,
+    "force": 5,
+    "dext": 5,
+    "intel": 2,
+    "desc": "un être fort et courageux, toujours prêt a sauver la veuve et l'orphelin. Très doué au combat, tant qu'on ne lui demande pas de réfléchir.",
+    "src": "img/war.png",
+    "alt": "l'image du guerrier"
+  },
+  {
+    "classe": "archer",
+    "pvMax": 50,
+    "pmMax": 10,
+    "force": 5,
+    "dext": 5,
+    "intel": 5,
+    "desc": "Un combatant à distance, agil et précis ! Les mobs n'ont jamais appris a se battre contre des poupées, espérons qu'ils ne le fassent pas tourner comme un soleil !",
+    "src": "img/bow.png",
+    "alt": "l'image de l'archer"
+  },
+  {
+    "classe": "mage",
+    "pvMax": 50,
+    "pmMax": 10,
+    "force": 5,
+    "dext": 5,
+    "intel": 5,
+    "desc": "Un vieillard en aparance, inséparable de son bâton. Selon la légende il serait plus agé que le monde lui-même. On l'aurait déjà aperçu en train de danser autour d'étranges statuettes enroulées dans du jambon.",
+    "src": "img/vivi.jpg",
+    "alt": "l'image du mage"
+  }
+]
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>PAUSE RPG</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron"><h1>Séléctionnez la classe</h1></div>
+    </div>
+
+
+
+    <div id="dragon" style="padding : 0px;">
+      <div class="row">
+        <div class="col-md-12" style="padding : 0px;">
+          <br><br><br>
+          <table align="center">
+            <tr>
+              <td><label for="">Nom : </label></td>
+              <td><input type="text" name="" value="" id="nomPerso"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+
+      <br>
+
+      <div class="row">
+        <div align="center" class="col-md-3" style="padding : 0px;">
+          <button align="center" id="classePrec"> <= </button>
+        </div>
+
+        <div class="col-md-6">
+          <div align="center" id="outputClasse"></div>
+          <div align="center"><img id="outputPic" src="" alt=""></div>
+          <div align="center" id="outputDesc"></div>
+          <div align="center"id="outputStats"></div>
+        </div>
+
+        <div align="center" class="col-md-3" style="padding : 0px;">
+          <button id="classeSuiv"> => </button>
+        </div>
+      </div>
+      <br><br>
+
+<div class="row">
+  <div class="col-md-12" align="center">
+    <a href="index.html"><button type="button" name="go" id="letsGo" >À l'aventure compagnon !</button></a>
+  </div>
+</div>
+
+      <br><br><br>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <!-- === Script pour les perso === -->
+  <script src="js/selectionPerso.js"></script>
+
+</body>
+</html>

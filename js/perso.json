@@ -1,0 +1,13 @@
+{
+  "nom":"Georges",
+  "classe": "Idiot du village",
+  "pvMax":0,
+  "pv": 0,
+  "pmMax": 0,
+  "pm": 0,
+  "force": 0,
+  "dext": 0,
+  "intel": 0,
+  "niveau":1,
+  "xp":0
+}

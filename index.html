@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>PAUSE RPG</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <audio controls autoplay="true" loop="true" hidden="true" id="music">
+    <source src="sons/index.wav" type="audio/wav">
+    </audio>
+
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <h1>PAUSE RPG</h1>
+        </div>
+      </div>
+
+      <div class="row" id="gates">
+        <div class="row">
+          <div class="col-md-12">
+            <span class="volume">
+
+
+              <a class="stick1" onclick="mute(0)" id="mute"><img src="img/mute.png" alt="" class="imgson"></a>
+              <a class="stick1" onclick="unmute(1)" id="unmute" hidden="true"><img src="img/unmute.png" alt="" class="imgson"></a>
+
+
+            </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <br><br><br>
+            <ul>
+              <li><a href="persos.html"><button>Jouer</button></a></li>
+              <li><a href=""><button>Option</button></a></li>
+              <li><a href=""><button>À propos</button></a></li>
+            </ul>
+            <br><br>
+          </div>
+        </div>
+
+
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12" align="center">
+                <p>&copy; PAUSE RPG | All rights reserved, BRW firm</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/son.js">
+    </script>
+
+  </body>
+  </html>

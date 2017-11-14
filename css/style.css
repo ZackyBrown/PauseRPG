@@ -1,0 +1,53 @@
+span{
+  background: url(../img/soundback.png);
+  float: right;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.imgson{
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+
+
+.jumbotron{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.container{
+  font-family: 'Press Start 2P', cursive;
+}
+
+ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+li{
+  padding: 20px;
+}
+
+#gates{
+  background: url(../img/Gates.png);
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+footer{
+  color: rgb(164, 102, 44);
+  background-color: rgba(144, 115, 115, 0.7);
+}
+
+#dragon{
+  background: url(../img/Dragons.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
